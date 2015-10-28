@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    margin: 0 auto;
+}
+
+.wrapper {
+    max-width: 30%;
+    margin: 0 auto;
+}
+
+.info-block {
+    border-bottom: 2px solid #000;
+    font-size: 1.2em;
+    padding: 2em 2em 1em;
+}
+
+.info-block:last-child {
+    border-bottom: none;
+}
+
+.general-info {
+    margin-top: 1em;
+}
+
+.general-info .person-name {
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+.photo-section {
+    padding: 1em;
+}
+
+.person-photo {
+    max-width: 200px;
+}
+
+.name-section,
+.photo-section {
+    text-align: center;
+}
+
+.motivation ul {
+    padding: 1em 1em 0;
+}
+
+.motivation ul li {
+    padding-bottom: .5em;
+}
+
+.motivation ul li:last-child {
+    padding-bottom: 0;
+}
+
+.contacts .tel-number {
+    padding-bottom: 1em;
+}
+
+.contacts p,
+.feedback p {
+    padding-bottom: .5em;
+}
+
+.contacts p:last-child,
+.feedback p:last-child {
+    padding-bottom: 0;
+}
