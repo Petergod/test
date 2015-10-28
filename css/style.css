@@ -1,0 +1,26 @@
+body {
+	background: #ccc;
+}
+
+h1{
+	color: black;
+	font-size: 32px;
+}
+
+p{
+	font-size: 22px;
+}
+
+hr {
+    background-color: grey; /* Цвет линии */
+    color: grey; /* Цвет линии для IE6-7 */
+    height: 2px; /* Толщина линии */
+   }
+
+
+#head {
+	width: 600px;
+	background: #fff;
+	margin: 0 auto;
+	padding: 30px;
+}
